@@ -5,6 +5,7 @@ font-family: 'Roboto', sans-serif;--*/
 
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 main{
     display: flex;
@@ -14,6 +15,17 @@ span, a{
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
+form{
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    height: 35rem;
+    padding: 3rem;
+    background: #24221f;
+}
 button{
     border: none;
     color: #24221f;
@@ -21,7 +33,7 @@ button{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     height: 3rem;
-    width: 22rem;
+    width: 28rem;
     font-size: 16px;
     border-radius: .3rem;
 }
@@ -34,32 +46,20 @@ div{
 }
 header{
     padding: 2rem;
+    width: 100%;
 }
+
 .container{
     display: flex;
     flex-basis: 52%;
     background: #191816;
-}
-form{
-    margin: auto 0;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 35rem;
-    height: 30rem;
-    padding: 3rem;
-    background: #24221f;
 }
 .img-container{
     display: flex;
     background-color: #afb6c2;
     flex: 1;
-}
-#background-img{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
 }
 .login-title{
     font-family: 'Poppins', sans-serif;
@@ -76,7 +76,7 @@ form{
 }
 .receiver{
     padding: .9rem;
-    width: 20rem;
+    width: 28rem;
     margin: 8px 0;
     background: #24221f;
     color: #fff;
@@ -86,13 +86,20 @@ form{
     transition: .2s;
     outline: none;
     font-family: 'Roboto', sans-serif;
+    padding-left: 3rem;
+    line-height: 0;
 }
-
 ::-ms-reveal {
     filter: invert(100%);
 }
 .receiver:focus{
     border: 2px solid #ffc632;
+}
+
+#background-img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 .label-item{
     display: block;
@@ -118,26 +125,43 @@ form{
 }
 .custom-checkbox input:checked + label:before{
     background:#ffc632;
-    background-image: url(./img/check.svg);
-}
-#email{
-    background: url(./img/mail.svg) no-repeat left / 1.3rem;
-    padding-left: 1.6rem;
-    line-height: 0;
-}
-#email:focus{
-    background-image: url(./img/mail-focus.svg);
-}
-#password{
-    background: url(./img/lock.svg) no-repeat left / 1.3rem;
-    padding-left: 1.6rem;
-    line-height: 0;
-}
-#password:focus{
-    background-image: url(./img/lock-focus.svg);
+    background-image: url(/../img/check.svg);
 }
 #space-between{
     display: flex;
     justify-content: space-between;
-    width: 22rem;
+    width: 28rem;
 }
+#email{
+    background: url(/../img/mail.svg) no-repeat 15px;
+}
+#email:focus{
+    background-image: url(/../img/mail-focus.svg);
+}
+#password{
+    background: url(/../img/lock.svg) no-repeat 15px;
+}
+#password:focus{
+    background-image: url(/../img/lock-focus.svg);
+}
+
+
+
+@media screen and (max-width: 1400px){
+    form{
+        width: 100%;
+        background: none;
+        padding: 0;
+        margin: 0;    
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        flex-basis: 100%;
+    }
+    .img-background{
+        display: none;
+    }
+}
+
+
