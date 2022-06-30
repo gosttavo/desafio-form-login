@@ -149,7 +149,19 @@ header{
     background-image: url(../img/lock-focus.svg);
 }
 
-@media only screen and (max-width: 1280px){
+
+@media only screen and (max-width: 1370px){
+    form{
+        width: 34rem;
+        height: 32rem;
+    }
+
+    .receiver, button, #space-between {
+        width: 23rem;
+    }
+}
+
+@media only screen and (max-width: 1050px){
     form{
         width: 100%;
         background: none;
@@ -173,6 +185,19 @@ header{
     
     .receiver, button, #space-between {
         width: 20rem;
+    }
+    .img-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .container{
+        height: 100vh;
+    }
+    
+    .receiver, button, #space-between {
+        width: 18rem;
     }
     .img-container {
         display: none;
