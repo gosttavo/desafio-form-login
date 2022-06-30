@@ -18,11 +18,12 @@
             <form action="#">
                 <div class="login-title">
                     <img src="./img/log-in.svg">
-                    
                     <h1>Faça seu login</h1>
                 </div>
 
-                <p class="input-item">Entre com suas informações de cadastro.</p>
+                <div>
+                    <span id="cadaster">Entre com suas informações de cadastro.</span>
+                </div>
 
                 <div class="input-item">
                     <label for="email" class="label-item">E-mail</label>
@@ -41,15 +42,18 @@
                     </div>
     
                     <div> 
-                        <span class="link"><a href="#">Esqueci minha senha</a></span>
+                        <a href="#">Esqueci minha senha</a>
                     </div>
                 </div>
 
                 <div>
                     <button type="submit" onclick="validateFields()">ENTRAR</button>
                 </div>
-    
-                <span>Não tem uma conta? <a href="#" class="link"><strong>Registre-se</strong></a></span> 
+                
+                <div class="register">
+                    <span>Não tem uma conta?</span> 
+                    <a href="#" id="bold">Registre-se</a>
+                </div> 
             </form>
         </article>
 
