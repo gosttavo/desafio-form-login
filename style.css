@@ -137,16 +137,16 @@ header{
     width: 28rem;
 }
 #email{
-    background: url(/../img/mail.svg) no-repeat 15px;
+    background: url(../img/mail.svg) no-repeat 15px;
 }
 #email:focus{
-    background-image: url(/../img/mail-focus.svg);
+    background-image: url(../img/mail-focus.svg);
 }
 #password{
-    background: url(/../img/lock.svg) no-repeat 15px;
+    background: url(../img/lock.svg) no-repeat 15px;
 }
 #password:focus{
-    background-image: url(/../img/lock-focus.svg);
+    background-image: url(../img/lock-focus.svg);
 }
 
 @media only screen and (max-width: 1280px){
@@ -172,7 +172,7 @@ header{
     }
     
     .receiver, button, #space-between {
-        width: 19rem;
+        width: 20rem;
     }
     .img-container {
         display: none;
@@ -180,8 +180,11 @@ header{
 }
 
 @media only screen and (max-width: 280px){
+    html{
+        font-size: 90%;
+    }
     .receiver, button, #space-between {
-        width: 15rem;
+        width: 16rem;
     }
 
     .register{
@@ -197,7 +200,7 @@ header{
     }
 
     #cadaster{
-        font-size: .8rem;
+        font-size: 80%;
     }
     
 }
