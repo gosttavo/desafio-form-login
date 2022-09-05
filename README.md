@@ -18,7 +18,7 @@
 
 <p>A ideia do desafio é usar os conhecimentos adquiridos de HTML e CSS no curso <strong>discover</strong> para criar uma tela de login para um site de acampamento.</p>
 <p>Esse foi um exercício ideal para fundamentar minha base de CSS, com certeza me ajudou muito a entender conceitos que antes eram desconhecidos por mim.</p>
-<p>Para acessar o Figma do projeto, clique <a href="https://www.figma.com/file/5yi0BzAo52Zl9uCsyJuUXi/DD-%2F-Login-Form---CSS-(Copy)?node-id=216%3A2" target="_blank">aqui.</a></p>
+<p>Para acessar o Figma do projeto, clique <a href="https://www.figma.com/file/5yi0BzAo52Zl9uCsyJuUXi/DD-%2F-Login-Form---CSS-(Copy)?node-id=216%3A2">aqui.</a></p>
 
 ##
 
